@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaClima Interativo - Clima, Água e Gamificação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="http://www.simepar.br" target="_blank" rel="noopener noreferrer" class="simepar-bar">
+        <span>🌤️ <strong>Previsão do Tempo em Tempo Real:</strong> Clique aqui para conferir os dados atualizados no <strong>Simepar</strong> ➔</span>
+    </a>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">AquaClima <span class="vibrant">Lab</span></div>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#consciencia">Consciência</a></li>
+                <li><a href="#mudancas-climaticas">Mudanças Climáticas</a></li>
+                <li><a href="#calculadora">Calculadora Hídrica</a></li>
+                <li><a href="#quiz">Quiz da Água</a></li>
+                <li><a href="#jogo">Jogo da Coleta</a></li>
+            </ul>
+
+            <div class="controls">
+                <button class="theme-toggle" id="themeBtn">Modo Claro</button>
+                <div class="hamburger" id="hamburgerBtn" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Interaja com o Futuro</h1>
+        <p>Aprenda, jogue e conscientize-se sobre o impacto climático nos nossos recursos hídricos.</p>
+    </section>
+
+    <main class="container" id="consciencia">
+        <h2 class="section-title">Pilares da Segurança Hídrica</h2>
+        <div class="grid-container">
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80" alt="Rio natural cercado por vegetação" class="card-img" loading="lazy">
+                <div class="card-content">
+                    <h3>Ciclo Hidrológico Saudável</h3>
+                    <p>O aquecimento global altera o ciclo natural, intensificando secas e enchentes. Preservar o ciclo é vital.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuo_PIw8sG-MmivRXoKp6CV-_eWLbGHpyV_nEdlqoaRQ&s=10" alt="Água limpa caindo em mãos" class="card-img" loading="lazy">
+                <div class="card-content">
+                    <h3>Consumo Consciente</h3>
+                    <p>Pequenas mudanças no dia a dia ajudam a reduzir a pegada hídrica pessoal e garantem água para o futuro.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://monitordomercado.com.br/wp-content/uploads/2024/05/infraestrutura.png" alt="Represa de água" class="card-img" loading="lazy">
+                <div class="card-content">
+                    <h3>Infraestrutura Resiliente</h3>
+                    <p>Investir em tecnologias e sistemas de gestão que resistem a eventos extremos, como no caso do RS.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="container" id="mudancas-climaticas">
+        <h2 class="section-title">Mudanças Climáticas e Eventos Extremos</h2>
+        <div class="grid-container">
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=800&q=80" alt="Enchente urbana" class="card-img" loading="lazy">
+                <div class="card-content">
+                    <h3>Enchentes Devastadoras</h3>
+                    <p>O aquecimento global acelera a evaporação e gera chuvas torrenciais, provocando inundações e enchentes graves nas cidades.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Oceano sob sol forte representando o El Niño" class="card-img" loading="lazy">
+                <div class="card-content">
+                    <h3>O Fenômeno El Niño</h3>
+                    <p>O aquecimento anormal das águas do Oceano Pacífico altera padrões globais de chuva, provocando secas severas em certas regiões e tempestades avassaladoras em outras.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://s7d2.scene7.com/is/image/TWCNews/EF5_Tornado_Joplin_MO_AP-110523113782" alt="Tornado de Joplin" class="card-img" loading="lazy">
+                <div class="card-content">
+                    <h3>Tornado de Joplin (2011)</h3>
+                    <p>O tornado EF5 que atingiu Joplin (EUA) causou imensa destruição com ventos superiores a 320 km/h, um marco do clima severo.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqk78m-1eH_89b8jL11UvEVEL_T93Vz4WxpefM9nsxZqfBH0SuOeVn7M&s=10" alt="Tornado de Moore" class="card-img" loading="lazy">
+                <div class="card-content">
+                    <h3>Tornado de Moore (2013)</h3>
+                    <p>Um violentíssimo tornado EF5 que devastou a cidade de Moore em Oklahoma, com um rastro de destruição de mais de 2 km de largura.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://external-preview.redd.it/new-footage-of-rio-bonito-do-igua%C3%A7u-f4-tornado-v0-MHh2Z3FuenQ3ajBnMRSpAsBJBo2FQJQp97OPyOULcegjAiPnz6EwGiDJOwkx.png?format=pjpg&auto=webp&s=9f52e7b26639534aefc47262aeef0a11e6f32a32" alt="Estragos do Tornado em Rio Bonito do Iguaçu" class="card-img" loading="lazy">
+                <div class="card-content">
+                    <h3>Tornado de Rio Bonito do Iguaçu e Guarapuava (2025)</h3>
+                    <p>Tornados severos de intensidade F4 que atingiram a região no Paraná, evidenciando o aumento e avanço de eventos climáticos intensos no Sul do Brasil.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.redd.it/zhlb6yafw6af1.jpeg" alt="Tornado de El Reno" class="card-img" loading="lazy">
+                <div class="card-content">
+                    <h3>Tornado de El Reno (2013)</h3>
+                    <p>Registrado como o tornado mais largo da história (4,2 km de largura), com mudanças imprevisíveis de direção e ventos extremíssimos.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container" id="calculadora">
+        <h2 class="section-title">Calculadora de Pegada Hídrica</h2>
+        <div class="card calc-container">
+            <p class="calc-intro">Descubra uma estimativa do seu consumo diário de água com base em hábitos simples:</p>
+            
+            <div class="calc-form">
+                <div class="form-group">
+                    <label for="banho">Minutos no banho por dia:</label>
+                    <input type="number" id="banho" value="10" min="1">
+                </div>
+                <div class="form-group">
+                    <label for="torneira">Minutos de torneira aberta (escovar dentes/louça):</label>
+                    <input type="number" id="torneira" value="5" min="0">
+                </div>
+                <button class="btn-action" id="calcBtn">Calcular Consumo</button>
+            </div>
+
+            <div id="calcResult" class="calc-result" style="display:none;">
+                <h3>Seu consumo estimado é de <span id="litrosRes" class="vibrant">0</span> litros/dia!</h3>
+                <p id="calcFeedback"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="quiz-section container" id="quiz">
+        <h2 class="section-title">Quiz: Guardião da Água</h2>
+        <div class="quiz-container card">
+            <div id="quiz-screen">
+                <p class="quiz-question" id="question">Carregando pergunta...</p>
+                <div class="quiz-options" id="options"></div>
+                <p class="quiz-feedback" id="feedback"></p>
+                <button class="btn-action next-btn" id="nextBtn" style="display:none">Próxima</button>
+            </div>
+            <div id="result-screen" style="display:none">
+                <h3 class="vibrant">Quiz Concluído!</h3>
+                <p id="final-score"></p>
+                <button class="btn-action" id="restartQuizBtn">Tentar Novamente</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="game-section container" id="jogo">
+        <h2 class="section-title">Jogo: Coletor de Chuva</h2>
+        <p class="game-instructions">Use as setas (← →) ou mova o mouse para pegar gotas (💧/🌧️). Evite os lixos (⚠️/☣️/🚮)!</p>
+        <div class="game-area card">
+            <div class="score-board">
+                Pontuação: <span id="game-score">0</span> | Recorde: <span id="game-highscore" class="vibrant">0</span>
+            </div>
+            <canvas id="gameCanvas" width="360" height="480"></canvas>
+            <div class="game-controls">
+                <button class="btn-action" id="startGameBtn">Começar Jogo</button>
+                <button class="btn-action btn-stop" id="stopGameBtn" style="display:none">Parar Jogo</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AquaClima Interativo. Aprenda, Jogue, Preserve.</p>
+    </footer>
+
+    <script src="https://cdn.userway.org/widget.js" data-account="IfoNVqBNzP"></script>
+    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
