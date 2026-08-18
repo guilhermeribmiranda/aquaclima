@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4. QUIZ
     const quizData = [
         {
-            question: "Qual porcentagem aproximada da água da Terra é doce e acessível?",
+            question: "Qual porcentagem aproximada da água doce e acessível da Terra?",
             options: ["Cerca de 10%", "Cerca de 1%", "Cerca de 25%", "Cerca de 50%"],
             correct: 1
         },
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             correct: 0
         },
         {
-            question: "Qual destas ações NÃO ajuda na segurança hídrica?",
+            question: "Qual destas ações NÃO ajuda na segurança hídrica e causa o desperdicio?",
             options: ["Coletar água da chuva", "Preservar matas ciliares", "Lavar calçadas com mangueira", "Consertar vazamentos"],
             correct: 2
         }
